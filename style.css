@@ -21,6 +21,10 @@ body
   padding: 20px;
 }
 
+h2 {
+    color: #003366;
+}
+
 .logo 
 {
   width: 80px;
