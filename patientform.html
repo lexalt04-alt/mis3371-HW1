@@ -18,7 +18,24 @@ Description: MIS3371 Homework 1 - creating a page that has a form on it to regis
 <body>
     <header>
         <img src="logo.png" alt="Trinity Med Center" class="logo">
+        
         <h1 class="banner-title">Trinity Med Center</h1>
+            <div id="date">
+            Today is:
+            <script>
+                var today = new Date();
+                document.write(today.toDateString());
+            </script>
+        </div>
+        
+    	 <div id="main">
+
+        <h2>Patient Registration Form</h2>
+
+        <form action="thankyou.html">
+
+            <table border="0">
+            
         <div id="current-date" class="date-display"></div>
     </header>
     <!-- <h1>Trinity Medical Registration Form</h1> -->
@@ -192,6 +209,7 @@ Description: MIS3371 Homework 1 - creating a page that has a form on it to regis
     <div id="footer">
     Trinity Med Center | 7293 Trinity Rd | Galveston, TX 77297 |
     <p>Need assistance? <button onclick="alert('Contact us at support@trinitymedical.com')">Contact Us</button></p>
-</div>
+	<div>
+ 
 </body>
 </html>
